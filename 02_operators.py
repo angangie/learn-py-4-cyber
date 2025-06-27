@@ -128,6 +128,9 @@ Create variables cpu_usage = 85 and cpu_limit = 90.
 Check if cpu_usage is greater than cpu_limit and store the result in high_cpu.
 """
 # TODO: Create variables and comparison
+cpu_limit = 90
+cpu_usage = 85
+high_cpu = cpu_usage > cpu_limit
 
 
 # Exercise 2: Basic math operations
@@ -138,6 +141,9 @@ Create variables users_online = 50 and new_users = 25.
 Calculate total_users by adding them together.
 """
 # TODO: Create variables and calculate total
+users_online = 50 
+new_users = 25
+total_users = users_online + new_users
 
 
 # Exercise 3: Boolean logic with AND
@@ -148,6 +154,10 @@ Create variables firewall_on = True and antivirus_on = True.
 Check if BOTH are True and store in system_protected.
 """
 # TODO: Create variables and use AND logic
+firewall_active = True
+antivirus_on = True
+system_protected = firewall_active and antivirus_on
+print(system_protected)
 
 
 # Exercise 4: Boolean logic with OR
@@ -158,7 +168,10 @@ Create variables critical_alert = False and warning_alert = True.
 Check if EITHER is True and store in any_alert.
 """
 # TODO: Create variables and use OR logic
-
+critical_alert = False
+warning_alert = True
+any_alert = critical_alert or warning_alert
+print(any_alert)
 
 # ============================================================================
 # YOUR MAIN EXERCISE: Create Security Monitoring Logic
@@ -207,30 +220,30 @@ admin_online, maintenance_mode, threat_level, and safe_threshold.
 
 # TODO: Create the 6 variables listed above
 # Create current_connections variable here
-
+current_connections = 150
 # Create max_connections variable here
-
+max_connections = 100
 # Create admin_online variable here
-
+admin_online = True
 # Create maintenance_mode variable here
-
+maintenance_mode = False
 # Create threat_level variable here
-
+threat_level = 7
 # Create safe_threshold variable here
-
+safe_threshold = 5
 
 # PART 2: Calculate security conditions using operators
 # TODO: Create the 5 calculated variables using operators
 # Create connection_overload variable here
-
+connection_overload = current_connections > max_connections
 # Create threat_high variable here
-
+threat_high = threat_level > safe_threshold
 # Create system_ready variable here
-
+system_ready = admin_online and not maintenance_mode
 # Create security_alert variable here
-
+security_alert = connection_overload or threat_high
 # Create safe_to_operate variable here
-
+safe_to_operate = system_ready and not security_alert
 
 
 # ============================================================================
