@@ -7,7 +7,7 @@ A comprehensive, self-guided Python learning project designed specifically for c
 This course teaches Python programming through real-world cybersecurity scenarios. Each module is designed for progressive learning and includes:
 - **Concept Introduction**: Core Python concepts explained with practical cybersecurity examples.
 - **Warm-up Exercises**: Skill-building exercises with immediate feedback via automated tests.
-- **Main Challenge**: A comprehensive problem applying the module's concepts to a cybersecurity task.
+- **Main Challenge**: A comprehensive problem applying the module's concepts to a cybersecurity task. 
 - **Automated Testing**: Built-in validation to guide your learning and confirm your solutions.
 
 ## Learning Pathway and Module Structure

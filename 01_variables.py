@@ -93,7 +93,7 @@ PRACTICE: Basic String Variable
 Create a variable named username1 that stores the text "admin".
 """
 # TODO: Create username1 variable
-
+username1= "admin"
 
 # Exercise 2: Create a number variable  
 """
@@ -102,7 +102,7 @@ PRACTICE: Basic Number Variable
 Create a variable named port that stores the number 443.
 """
 # TODO: Create port variable
-
+port = 443
 
 # Exercise 3: Create a boolean variable
 """
@@ -111,7 +111,7 @@ PRACTICE: Basic Boolean Variable
 Create a variable named is_secure that stores True.
 """
 # TODO: Create is_secure variable
-
+is_secure= True
 
 # Exercise 4: Create multiple variables
 """
@@ -123,7 +123,9 @@ Create these three variables:
 - online with value True
 """
 # TODO: Create the three variables
-
+server_name= "firewall"
+connections= 25
+online= True
 
 # ============================================================================
 # YOUR MAIN EXERCISE: Create Cybersecurity Variables
@@ -155,19 +157,21 @@ label so other administrators can quickly review the system status.
 
 # TODO: Create your variables here
 # Create admin_username variable here
+admin_username  = "secladmin"
 
 # Create server_ip variable here
+server_ip = "10.0.0.50"
 
 # Create ssh_port variable here
-
+ssh_port =  22
 # Create login_attempts variable here
-
+login_attempts = 3
 # Create uptime_hours variable here
-
+uptime_hours = 72.5
 # Create patch_required variable here
-
+patch_required = True
 # Create backup_completed variable here
-
+backup_completed = False
 
 # ============================================================================
 # BUILT-IN TESTS - Check Your Work! 
