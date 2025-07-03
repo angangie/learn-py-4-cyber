@@ -197,6 +197,12 @@ your system should note "High threat detected". Otherwise, it should note "Low o
 # TODO: Assign the determined message to the global variable `warmup1_output`.
 # warmup1_output = "" # Initialize for testing
 
+current_score= 8
+if current_score > 5:
+    print("High threat detected")
+else:
+    print("Low or normal threat")
+warmup1_output = "High threat detected" #what does initialized for testing mean? 
 
 # Exercise 2: If-else statement
 """
@@ -212,7 +218,12 @@ Any other port should be identified as "Other connection".
 # TODO: Use an if-else statement to identify the connection type.
 # TODO: Assign the connection type to the global variable `warmup2_output`.
 # warmup2_output = "" # Initialize for testing
-
+port_number = 22
+if port_number == 22: #need explanation on == again 
+    print("SSH connection")
+else:
+    print("Other connection")
+warmup2_output = "SSH connection"
 
 # Exercise 3: Multiple conditions with elif
 """
@@ -230,8 +241,14 @@ Evaluate this score:
 # TODO: Implement an if-elif-else structure to evaluate the score.
 # TODO: Assign the evaluation message to the global variable `warmup3_output`.
 # warmup3_output = "" # Initialize for testing
-
-
+security_code = 7
+if security_code>=9 :
+    print:"Excellent security"
+elif security_code>=7:
+    print:"Good security"
+else:
+    print:"Needs improvement"
+warmup3_output="Good security"  #why is this "good security"
 # Exercise 4: Combining conditions with AND
 """
 PRACTICE: System Readiness Check
