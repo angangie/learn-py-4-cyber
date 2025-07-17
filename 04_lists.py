@@ -194,13 +194,14 @@ a "firewall", then a "router", and finally a "switch".
 You need to create a list representing this initial inventory in the order they were acquired.
 Also, record the total number of devices in this initial list.
 
-(Store the list itself in a global variable named `warmup1_devices_list` and the
+(Store the list itself in a global variable named `w` and the warmup1_devices_list
 count of devices in `warmup1_devices_length` for automated checking.)
 """
 # TODO: Create a list with "firewall", "router", "switch".
 # TODO: Assign this list to `warmup1_devices_list`.
 # TODO: Calculate its length and assign to `warmup1_devices_length`.
-
+w=["firewall", "router", "switch"]
+w=warmup1_devices_list
 
 # Exercise 2: Add item to list
 """
